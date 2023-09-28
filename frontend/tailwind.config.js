@@ -9,6 +9,8 @@ module.exports = {
       orange: "#dfb39d",
       pink: "#cba39f",
       purple: "#996663",
+      brown: "#6f605b",
+      red: "#991b1b",
     },
     extend: {},
     fontFamily: {

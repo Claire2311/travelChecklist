@@ -85,7 +85,7 @@ app.use(cookieParser());
 
 const router = require("./router");
 
-app.use("/api", router);
+app.use(router);
 
 /* ************************************************************************* */
 
