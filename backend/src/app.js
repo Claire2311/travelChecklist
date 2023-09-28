@@ -83,9 +83,11 @@ app.use(cookieParser());
 
 // Import and mount API routes
 
-const router = require("./router");
+const itemRouter = require("./routes/item.routes");
+const authRouter = require("./routes/auth.routes");
 
-app.use(router);
+app.use("/auth", authRouter);
+app.use("/items", itemRouter);
 
 /* ************************************************************************* */
 
